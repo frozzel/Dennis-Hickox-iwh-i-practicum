@@ -1,5 +1,5 @@
 <div>
-<a href=""><img src="https://github.com/frozzel/LLM-Training-Server/blob/28aa285985a8fde97537d617d0ace899047476a0/chatgptbanner.webp" align="center" height="" width="100%" ></a></div>
+<a href=""><img src="https://github.com/frozzel/Dennis-Hickox-iwh-i-practicum/blob/e1c4fdb102a5d1d846c1e83c165105cc676f3aac/views/HubspotApi.webp" align="center" height="" width="100%" ></a></div>
 
 # Welcome to the Integrating With HubSpot I: Foundations Practicum
 
