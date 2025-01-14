@@ -16,7 +16,7 @@ app.use(express.json());
 
 // * Code for Route 1 goes here
 
-app.get('/pets', async (req, res) => {
+app.get('/', async (req, res) => {
 
     const pets = 'https://api.hubapi.com/crm/v3/objects/pets?properties=name&properties=age&properties=type';
     const headers = {
@@ -27,7 +27,7 @@ app.get('/pets', async (req, res) => {
     try {
         const resp = await axios.get(pets, { headers });
         const data = resp.data.results;
-        res.render('contacts', { title: 'Pets | HubSpot APIs', data });    
+        res.render('home', { title: 'Pets | HubSpot APIs', data });    
         // res.json(data);  
     } catch (error) {
         console.error(error);
@@ -92,7 +92,7 @@ app.post('/update', async (req, res) => {
 
 PORT = process.env.PORT || 3000;
 
-app.listen(3000, () => {
+app.listen(PORT, () => {
     console.log(`................................................`)
     console.log(`🚀  Server running on http://localhost:${PORT}, 🚀`)
     console.log(`...............................................`)
