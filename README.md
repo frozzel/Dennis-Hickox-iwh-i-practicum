@@ -29,3 +29,35 @@ ___
 - All work must be your own. During the grading process we will check the revision history. Submissions that do not meet this requirement will not be considered.
 - You must have at least two new routes in your index.js file and one new pug template for the homepage.
 - You must create a developer test account and link to it in your README.md file. Submissions that do not meet this requirement will not be considered.
+
+## Installation
+
+- Download Repo
+
+```bash
+    git clone https://github.com/frozzel/Dennis-Hickox-iwh-i-practicum.git
+```
+
+- Install Dependencies 
+ 
+```bash
+    cd Dennis-Hickox-iwh-i-practicum
+    npm install
+```
+
+- Get Api Key from Hubspot Account
+
+> [!TIP]
+> [Hubspot API Docs](https://legacydocs.hubspot.com/docs/faq/developer-api-keys)
+
+- Create .env File in Main Directory
+
+```env
+    PRIVATE_APP_ACCESS
+```
+
+- Run And Enjoy
+
+```bash
+npm run dev
+```
