@@ -34,11 +34,15 @@ ___
 
 - Download Repo
 
+
+
 ```bash
     git clone https://github.com/frozzel/Dennis-Hickox-iwh-i-practicum.git
 ```
 
-- Install Dependencies 
+- Install Dependencies
+
+
  
 ```bash
     cd Dennis-Hickox-iwh-i-practicum
@@ -47,16 +51,21 @@ ___
 
 - Get Api Key from Hubspot Account
 
+
+
 > [!TIP]
 > [Hubspot API Docs](https://legacydocs.hubspot.com/docs/faq/developer-api-keys)
 
 - Create .env File in Main Directory
+
+
 
 ```env
     PRIVATE_APP_ACCESS
 ```
 
 - Run And Enjoy
+
 
 ```bash
 npm run dev
