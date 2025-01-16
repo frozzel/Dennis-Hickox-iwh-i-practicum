@@ -36,7 +36,7 @@ ___
 
 
 
-```bash
+```sh
     git clone https://github.com/frozzel/Dennis-Hickox-iwh-i-practicum.git
 ```
 
@@ -44,7 +44,7 @@ ___
 
 
  
-```bash
+```sh
     cd Dennis-Hickox-iwh-i-practicum
     npm install
 ```
@@ -67,6 +67,6 @@ ___
 - Run And Enjoy
 
 
-```bash
+```sh
 npm run dev
 ```
